@@ -1,0 +1,24 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<title>9cca2e57-7a5e-47bf-b955-344efef50d80</title>
+</head>
+<body>
+    <form>
+        <p id="p"></p>
+        <label for="a">A: </label>
+        <INPUT id="a" name="a" type="radio" />
+    </form>
+  <script type="text/javascript">
+
+      function foo() {
+          var p = document.getElementById('p');
+          p.innerHTML = 'document.all.item("a") == null : ' + (document.all.item("a") == null) + '<br/>' +
+              'document.all.item("a").checked : ' + (document.all.item("a").checked) + '<br/>' +
+              'document.all.item("a").length : ' + (document.all.item("a").length) + '<br/>' +
+              'document.getElementById("a").checked : ' + (document.getElementById("a").checked) + '<br/>';
+      }
+
+    </script>
+</body>
+</html>
